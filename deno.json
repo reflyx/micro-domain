@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "test": "deno run --allow-all --watch test/update-order.js",
+    "test2": "deno run --allow-all --watch test/orders.js"
+  },
+  "imports": {
+    "ioredis": "npm:ioredis",
+    "rx": "npm:rxjs",
+    "ajv": "npm:ajv"
+  }
+}
