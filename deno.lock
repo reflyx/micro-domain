@@ -2,6 +2,8 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:@metrichor/jmespath": "npm:@metrichor/jmespath@0.3.1",
+      "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:immer": "npm:immer@10.1.1",
       "npm:ioredis": "npm:ioredis@5.4.1",
       "npm:mingo": "npm:mingo@6.4.15",
@@ -11,6 +13,14 @@
     "npm": {
       "@ioredis/commands@1.2.0": {
         "integrity": "sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==",
+        "dependencies": {}
+      },
+      "@metrichor/jmespath@0.3.1": {
+        "integrity": "sha512-X/S90FG+VlEWGNEptEpZ15QN7h9aRhdOZm3yjE4lHItig8lSpJbmYDqAPo3iKc4CjUGfUSv4z+VhKrFw6iHBMg==",
+        "dependencies": {}
+      },
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
         "dependencies": {}
       },
       "cluster-key-slot@1.1.2": {

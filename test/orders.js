@@ -23,7 +23,10 @@ const order = await orderDomain.create({
 })
 
 // create a status watcher query
-order.query(s => s.status).subscribe(status => console.log("order status:", status))
+order
+  .query(s => s.status)
+  .stream()
+  .subscribe(status => console.log("order status:", status))
 
 console.log("created order", order.id)
 
