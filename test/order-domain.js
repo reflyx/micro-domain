@@ -2,7 +2,11 @@ import { domainFactory } from "../main.js"
 
 export const orderDomain = await domainFactory({ name: "orders" })
 
-orderDomain.addMutation("change-status", function (state, payload) {
-  console.log("changing order %s status to", state.id, payload.status)
-  state.status = payload.status
+orderDomain.addMutation("change-status", function (state, payload, { id }) {
+  if (state.status !== payload.status) {
+    console.log("changing order %s status to", id, payload.status)
+    state.status = payload.status
+  } else {
+    console.log("order %s is already in %s status", id, state.status)
+  }
 })

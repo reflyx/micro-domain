@@ -4,6 +4,7 @@
     "specifiers": {
       "npm:immer": "npm:immer@10.1.1",
       "npm:ioredis": "npm:ioredis@5.4.1",
+      "npm:mingo": "npm:mingo@6.4.15",
       "npm:rxjs": "npm:rxjs@7.8.1",
       "npm:zustand": "npm:zustand@4.5.2_immer@10.1.1"
     },
@@ -61,6 +62,10 @@
         "dependencies": {
           "js-tokens": "js-tokens@4.0.0"
         }
+      },
+      "mingo@6.4.15": {
+        "integrity": "sha512-fKUCGr7fUxrb7YBK6whm5O5VouXfKAVtxnb+6g3Xuwsj9Jt9u8hhMOgiUoKO4kp3DmuiN0qgpYX2H/nP3zD1Hw==",
+        "dependencies": {}
       },
       "ms@2.1.2": {
         "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
