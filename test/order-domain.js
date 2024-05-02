@@ -10,3 +10,5 @@ orderDomain.addMutation("change-status", function (state, payload, { id }) {
     console.log("order %s is already in %s status", id, state.status)
   }
 })
+
+orderDomain.addEffect("initialized", state => state.status === "pending")
